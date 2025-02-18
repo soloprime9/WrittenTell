@@ -12,7 +12,7 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata = {
-  title: "Today Update",
+  title: "javguru",
   description: "Daily written updates provdies on Today Update Website Dear Friends, You can find updates daily",
 };
 
