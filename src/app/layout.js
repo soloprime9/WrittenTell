@@ -12,17 +12,18 @@ const geistMono = Geist_Mono({
   subsets: ["latin"],
 });
 
-
 export default function RootLayout({ children }) {
   return (
-    <>
+    <html lang="en">
       <Head>
         <title>Jav Guru - Latest Updates</title>
         <meta name="description" content="Daily updates provides on Today Update Website. Find updates daily!" />
         <meta name="keywords" content="jav,javguru,spangbang,japanese,English subbed JAV,Watch JAV.guru JAV Porn Tube Videos,Jav Guru - Watch JAV Online Free - Best JAV movies, updates, news, trending, latest" />
         <meta name="robots" content="index, follow" />
       </Head>
-      {children}
-    </>
+      <body className={`${geistSans.variable} ${geistMono.variable}`}>
+        {children}
+      </body>
+    </html>
   );
 }
