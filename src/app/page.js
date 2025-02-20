@@ -2,10 +2,10 @@
 import React, { useState } from "react";
 
 const movies = [
-  { title: "Movie 1", image: "https://via.placeholder.com/300", category: "Trending" },
-  { title: "Movie 2", image: "https://via.placeholder.com/300", category: "Latest" },
-  { title: "Movie 3", image: "https://via.placeholder.com/300", category: "Popular" },
-  { title: "Movie 4", image: "https://via.placeholder.com/300", category: "Trending" },
+  { title: "Movie 1", 1.jpg", category: "Trending" },
+  { title: "Movie 2", image: "1.jpg", category: "Latest" },
+  { title: "Movie 3", image: "1.jpg", category: "Popular" },
+  { title: "Movie 4", image: "1.jpg", category: "Trending" },
 ];
 
 const App = () => {
