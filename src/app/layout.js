@@ -11,19 +11,17 @@ const geistMono = Geist_Mono({
   subsets: ["latin"],
 });
 
-export const metadata = {
-  title: "javguru",
-  description: "Daily written updates provdies on Today Update Website Dear Friends, You can find updates daily",
-};
 
 export default function RootLayout({ children }) {
   return (
-    <html lang="en">
-      <body
-        className={`${geistSans.variable} ${geistMono.variable} antialiased`}
-      >
-        {children}
-      </body>
-    </html>
+    <>
+      <Head>
+        <title>Jav Guru - Latest Updates</title>
+        <meta name="description" content="Daily updates provides on Today Update Website. Find updates daily!" />
+        <meta name="keywords" content="jav,javguru,spangbang,japanese,English subbed JAV,Watch JAV.guru JAV Porn Tube Videos,Jav Guru - Watch JAV Online Free - Best JAV movies, updates, news, trending, latest" />
+        <meta name="robots" content="index, follow" />
+      </Head>
+      {children}
+    </>
   );
 }
